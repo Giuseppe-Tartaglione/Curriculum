@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Curriculum</title>
+</head>
+<body>
+<form action="AddCurriculum" method="post">
+	<fieldset>
+		<legend><b>Dati Personali</b></legend>
+		  <label for="nome">Nome</label><br>
+		  <input type="text" id="nome" name="nome" value="" />
+		  <br>
+		  <label for="cognome">Cognome </label><br>
+		  <input type="text" name="cognome" value=""/>
+		  <br>
+		  <label for="iva">Indirizzo</label><br>
+		  <input type="text" name="indirizzo" value=""/>
+		  <br>
+		  <label for="lavoro">Attività Lavorativa</label><br>
+		  <textarea name="lavoro" rows="4" cols="20">
+ 		  </textarea>
+		  <br> 
+		</fieldset>  
+		<fieldset>
+			<legend><b>Competenze Informatiche</b></legend>
+		  <input type="checkbox" name="linguaggio" value="Angular"/>
+		    <label for="Angular">Angular</label><br>
+		  <input type="checkbox" name="linguaggio" value="Luna"/>
+		    <label for="Luna">Luna</label><br>
+		  <input type="checkbox" name="linguaggio" value="Ruby"/>
+		    <label for="Ruby">Ruby</label><br>
+		  <input type="checkbox" name="linguaggio" value="Java"/>
+		    <label for="Java">Java</label><br>
+		  <input type="checkbox" name="linguaggio" value="C#"/>
+		  	<label for="C#">C#</label><br>
+		  <input type="checkbox" name="linguaggio" value="Python"/>
+		    <label for="Python">Python</label>
+		  <br>
+		  <label for="AltreCompetenze">Altre Competenze</label> <br>
+		  <textarea name="AltreCompetenze" rows="4" cols="20">
+ 		  </textarea>
+	  	</fieldset>
+	  	
+	  	<fieldset>
+			<legend><b>Lingue conosciute</b></legend>
+		  <input type="checkbox" name="lingua" value="Inglese"/>
+		    <label for="Inglese">Inglese</label><br>
+		  <input type="checkbox" name="lingua" value="Francese"/>
+		  	<label for="Francese">Francese</label><br>
+		  <input type="checkbox" name="lingua" value="Tedesco"/>
+		    <label for="Tedesco">Tedesco</label>
+		  <br>
+		  <input type="checkbox" name="lingua" value="Russo"/>
+		    <label for="Russo">Russo</label>
+		  <br>
+		  <input type="checkbox" name="lingua" value="Giapponese"/>
+		    <label for="Giapponese">Giapponese</label>
+		  <br>
+		  
+	  	</fieldset>
+	  	<br>
+	  	<fieldset>
+			<legend><b>Conoscenza delle lingue</b></legend>
+		  <input type="radio" name="livello" value="Scolastica"/>
+		    <label for="Scolastica">Scolastica</label><br>
+		  <input type="radio" name="livello" value="Buona"/>
+		  	<label for="Buona">Buona</label><br>
+		  <input type="radio" name="livello" value="Ottima"/>
+		    <label for="Ottima">Ottima</label>
+		  <br>
+	  	</fieldset>
+	  	<input type="submit" value="Invia">
+</form> 
+</body>
+</html>
